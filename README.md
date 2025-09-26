@@ -16,6 +16,19 @@ NumPy: 1.24.1
 SciPy: 1.12.0
 
 
+Download modified_minimize.py and modified_optimize.py, then overwrite SciPy’s originals located at:
+
+.../site-packages/scipy/optimize/_minimize.py
+.../site-packages/scipy/optimize/_optimize.py
+
+You can control which optimizer variant is used by setting the method_bfgs parameter.
+This tells the modified SciPy backend which self-scaled algorithm to apply.
+
+For example:
+method_bfgs = "SSBFGS_AB"
+
+Other supported options include "SSBroyden", "SSDFP", "SSPSB", and "SSLBFGS".
+
 
 If you use this code, please cite the paper above.
 
