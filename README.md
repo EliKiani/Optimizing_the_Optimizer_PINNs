@@ -20,7 +20,6 @@ Download _optimize.py, then overwrite SciPy’s originals located at:
 
 .../site-packages/scipy/optimize/_minimize.py
 
-.../site-packages/scipy/optimize/_optimize.py
 
 You can control which optimizer variant is used by setting the method_bfgs parameter.
 
