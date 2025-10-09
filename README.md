@@ -16,7 +16,7 @@ NumPy: 1.24.1
 SciPy: 1.12.0
 
 
-Download modified_minimize.py and modified_optimize.py, then overwrite SciPy’s originals located at:
+Download _optimize.py, then overwrite SciPy’s originals located at:
 
 .../site-packages/scipy/optimize/_minimize.py
 
