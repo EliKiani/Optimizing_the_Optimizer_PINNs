@@ -36,6 +36,18 @@ The JAX source code is available at:
 https://github.com/raj-brown/optimistix/blob/SSBFGS/optimistix
 
 
+
+<img src="PINNS_optmizer.png" align="left" width="360" style="margin-right: 16px; margin-bottom: 10px;" />
+
+<small><b>Figure.</b> Relative ℓ₂ error for solving Burgers’ equation with BFGS, L-BFGS, SSBroyden, and SSBFGS, demonstrating the superior performance of second-order methods.</small>
+
+<br clear="left"/>
+
+
+
+
+
+
 If you use this code, please cite the paper above.
 
 ```bibtex
