@@ -31,6 +31,10 @@ method_bfgs = "SSBFGS_AB"
 
 Other supported options include "SSBroyden", "SSDFP", "SSPSB", and "SSLBFGS".
 
+The JAX source code is available at:
+
+https://github.com/raj-brown/optimistix/blob/SSBFGS/optimistix
+
 
 If you use this code, please cite the paper above.
 
