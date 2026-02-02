@@ -44,6 +44,8 @@ https://github.com/raj-brown/optimistix/blob/SSBFGS/optimistix
 <br clear="left"/>
 
 
+![u animation](assets/predictions_GL_u.gif)
+![v animation](assets/predictions_GL_v.gif)
 
 
 
